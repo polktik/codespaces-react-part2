@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import MouseEvent from './MouseEvent';
 import reportWebVitals from './reportWebVitals';
+import ItemList from './ItemList';
+import Bmi from './Bmi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Bmi />
   </React.StrictMode>
 );
 
